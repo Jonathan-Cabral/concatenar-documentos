@@ -1,0 +1,54 @@
+# 📄 Concatenador de Documentos
+
+## Descrição
+Uma aplicação de desktop em Python para concatenar (mesclar) múltiplos documentos em um único arquivo. Atualmente focado em concatenação de arquivos PDF.
+
+## Funcionalidades Atuais
+- Selecionar múltiplos arquivos PDF
+- Reordenar arquivos na lista
+- Mover arquivos para cima ou para baixo
+- Remover arquivos específicos
+- Concatenar PDFs em qualquer ordem desejada
+- Barra de progresso durante a concatenação
+- Interface gráfica amigável
+
+## Roadmap de Desenvolvimento
+🚧 Próximas Implementações:
+- Suporte para outros tipos de documentos
+  - Microsoft Word (.docx)
+  - Documentos de Texto (.txt)
+  - Outros formatos de documento
+
+## Requisitos
+- Python 3.x
+- Bibliotecas:
+  - tkinter (geralmente inclusa na instalação padrão)
+  - PyPDF2
+  - Pillow (PIL)
+
+## Instalação de Dependências
+```bash
+pip install PyPDF2 Pillow
+```
+
+## Como Usar
+1. Execute o script
+2. Clique em "Selecionar PDFs"
+3. Escolha os arquivos PDF desejados
+4. Reordene os arquivos se necessário
+5. Clique em "Concatenar PDFs"
+6. Escolha o local para salvar o arquivo final
+
+## Limitações Atuais
+ℹ️ Atualmente, o programa suporta **apenas a concatenação de arquivos PDF**. O suporte para outros tipos de documentos está planejado para versões futuras.
+
+## Botões e Funções
+- **Selecionar PDFs**: Abre diálogo para escolher arquivos
+- **Concatenar PDFs**: Mescla os arquivos selecionados
+- **Limpar Lista**: Remove todos os arquivos da lista
+- **↑ Mover para Cima**: Move arquivo selecionado para cima
+- **↓ Mover para Baixo**: Move arquivo selecionado para baixo
+- **Remover Selecionado**: Remove arquivos escolhidos da lista
+
+## Contribuição
+Contribuições são bem-vindas! Sugestões de novos recursos, especialmente suporte a mais tipos de documentos, são muito apreciadas.
